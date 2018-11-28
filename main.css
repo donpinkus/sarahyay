@@ -1,0 +1,33 @@
+html {
+  background: #f6f6f6;
+}
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.Header {
+  background: #292929;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+}
+.Header-Logo {
+  color: blue;
+  flex: 1;
+}
+.Header-Org {
+  color: white;
+}
+.Content {
+  display: flex;
+  flex: 1;
+}
+.SideNav {
+  width: 300px;
+  border-right: 1px solid grey;
+}
+.Main {
+  flex: 1;
+}
